@@ -11,6 +11,8 @@
             android:supportsRtl="true"
             android:theme="@style/AppTheme"
             >
+        <activity android:name=".RecyclerViewActivity">
+        </activity>
         <activity android:name=".LoginActivity">
         </activity>
         <activity android:name=".Main2Activity">
