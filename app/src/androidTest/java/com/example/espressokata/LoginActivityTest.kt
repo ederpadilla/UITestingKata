@@ -24,14 +24,15 @@ class LoginActivityTest{
     //@get:Rule
     //var activityRule = ActivityScenarioRule(LoginActivity::class.java)
 
+    @get:Rule
+    var activityRule = IntentsTestRule(LoginActivity::class.java)
+
     @Test
     fun errorMessageIsNotShowInitiallyTest() {
         onView(withId(R.id.loginActivityTvError))
             .check(matches(not(isDisplayed())))
     }
 
-    @get:Rule
-    var activityRule = IntentsTestRule(LoginActivity::class.java)
 
 
     @Test
