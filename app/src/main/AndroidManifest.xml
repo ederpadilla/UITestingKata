@@ -11,6 +11,10 @@
             android:supportsRtl="true"
             android:theme="@style/AppTheme"
             >
+        <activity android:name=".SpinnerActivity">
+        </activity>
+        <activity android:name=".IdlingActivity">
+        </activity>
         <activity android:name=".RecyclerViewActivity">
         </activity>
         <activity android:name=".LoginActivity">
